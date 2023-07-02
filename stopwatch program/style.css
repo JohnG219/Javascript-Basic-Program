@@ -1,0 +1,70 @@
+body{
+    background-image: url("Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;      /* Cover to fit all background picture */
+}
+
+.timerBtn{
+    width: 120px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: #006663;
+    color: cornsilk;
+    cursor: pointer;  /* if you click have cursor pointer */
+    font-family: 'Dancing Script', cursive;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+#timeDisplay{
+    font-size: 100px;
+    color: gold;
+    font-family: 'Rampart One', cursive;
+}
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 27px;
+    width: 520px;
+    margin-left: 30%;
+    background-color: #191442;
+}
+#startBtn:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    background-color: gold;
+    color: brown;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+#pauseBtn:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    background-color: gold;
+    color: brown;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+#stopBtn:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    background-color: gold;
+    color: brown;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}

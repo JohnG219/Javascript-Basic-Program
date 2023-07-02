@@ -1,0 +1,86 @@
+body{
+    background: fixed;
+    background:no-repeat;
+    height: 100%;
+    width: 100%;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Kaushan Script', cursive;
+}
+.numberbtn{
+    background-color: aqua;
+    text-align: center;
+    font-size: 50px;
+}
+.numberbtn:hover{
+    background-color: gold;
+}
+#doubleBtn:hover{
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    border-radius: 55px;
+    font-size: 42px;
+    font-family: 'Kaushan Script', cursive;
+}
+#tripleBtn:hover{
+    background-color: palevioletred;
+    height: 150px;
+    width: 150px;
+    border-radius: 55px;
+    font-size: 42px;
+    font-family: 'Kaushan Script', cursive;
+}
+#increaseBtn:hover{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    border-radius: 55px;
+    font-size: 36px;
+    font-family: 'Kaushan Script', cursive;
+}
+#resetBtn:hover{
+    background-color: paleturquoise;
+    height: 150px;
+    width: 150px;
+    border-radius: 55px;
+    font-size: 42px;
+    font-family: 'Kaushan Script', cursive;
+}
+#decreaseBtn:hover{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 55px;
+    font-size: 33px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#doubleBtn{
+    font-size: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#tripleBtn{
+    font-size: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#increaseBtn{
+    font-size: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#decreaseBtn{
+    font-size: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#resetBtn{
+    font-size: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}

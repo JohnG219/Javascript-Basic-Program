@@ -1,0 +1,52 @@
+body {
+    background-color: grey;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    border-style: outset;
+    border-color: gold;
+    border-width: 25px;
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+#cellContainer{
+    display: grid;
+    width: 235px;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    color: seashell;
+    background-color: violet;
+}
+
+#restartBtn {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+#restartBtn:hover {background-color: red}
+#restartBtn:active {
+  background-color: rgb(243, 96, 96);
+  list-style: none;
+  transform: translateY(4px);
+}
+
+#fText {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

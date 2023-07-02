@@ -1,0 +1,62 @@
+
+body {
+    background-image: url('./images/Wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /*
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+   --------------------
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */   
+}
+
+#wrapper {
+    display: inline-block;
+    margin: 20px;
+}
+
+#left-div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20 20 20;
+    padding: 20;
+    border: solid 1px gold;
+    width: 286px;
+    height: 200.100px;
+}
+
+#logo {
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+#game-container {
+    position: relative;
+    display: inline-block;
+}
+
+#background {
+    width: 281px;
+    height: 561.313px;
+}
+
+#game-canvas {
+    position: absolute;
+}
+
+#score-div,
+#lines-div {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: left;
+    margin: 15 0;
+}

@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    background-color: beige;
+}
+
+.alld {
+    font-size: 35px;
+    width: 15%;
+    border-style: groove;
+    border-color: burlywood;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+#rollButton {
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 26%;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#rollButton:hover {background-color: #0071c2}
+#rollButton:active {
+  background-color: #0071c28c;
+  list-style: none;
+  transform: translateY(4px);
+}

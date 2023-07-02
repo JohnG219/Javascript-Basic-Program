@@ -1,0 +1,47 @@
+body {
+    background-color: purple;
+    height: 100vh;
+}
+
+.wall {
+    border-style: ridge;
+    width: 40%;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 27%;
+    margin-top: 12%;
+    height: 45%;
+    padding-top: 40px;
+    background-color: rgb(104, 109, 87);
+    border-color: gold;
+}
+
+#textBox {
+    text-align: center;
+    height: 35px;
+    font-size: 35px;
+    width: 100px;
+}
+
+#submitButton {
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 26%;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#submitButton:hover {background-color: #0071c2}
+#submitButton:active {
+  background-color: #0071c28c;
+  list-style: none;
+  transform: translateY(4px);
+}
+
+#tempLabel {
+    color: cyan;
+}
